@@ -117,7 +117,7 @@ export default function Header1() {
               aria-label="when device is locked"
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClickListItem}
-              sx={{ "&:hover": { cursor: "pointer", px: 1 } }}
+              sx={{ "&:hover": { cursor: "pointer" } }}
             >
               <ListItemText
                 sx={{ ".MuiTypography-root": { fontSize: "11px", color: "#fff" } }}
